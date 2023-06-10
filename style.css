@@ -1,61 +1,60 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 aside {
-    width: 24%;
-    float: left;
-    position: fixed;
-    height: auto;
+  width: 24%;
+  float: left;
+  position: fixed;
+  height: auto;
 }
 
 main {
-    width: 75%;
-    float: right;
-    border-left: 2px solid grey;
+  width: 75%;
+  float: right;
+  border-left: 2px solid grey;
 }
 
 nav a {
-    display: block;
-    border-top: 2px solid grey;
-    padding: 20px;
-    text-decoration: none;
-    color: black;
+  display: block;
+  border-top: 2px solid grey;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
 }
 
 ul li {
-    list-style-position: inside;
-    padding: 10px;
+  list-style-position: inside;
+  padding: 10px;
 }
 
 .main-section {
-    padding: 20px;
-    margin: 20px;
-    line-height: 1.8;
+  padding: 20px;
+  margin: 20px;
+  line-height: 1.8;
 }
 
 section header {
-    margin-bottom: 10px;
-    font-size: 2em;
+  margin-bottom: 10px;
+  font-size: 2em;
 }
 
 nav header {
-    margin-bottom: 10px;
-    font-size: 2em;
+  margin-bottom: 10px;
+  font-size: 2em;
 }
 
 pre {
-    background: lightgrey;
+  background: lightgrey;
 }
 
-
-/* @media only screen and (max-width:600px) {
-    aside {
-        width: 100%;
-        position: relative;
-    }
-    main {
-        width: 100%;
-    }
-} */
+@media only screen and (max-width: 600px) {
+  aside {
+    width: 100%;
+    position: relative;
+  }
+  main {
+    width: 100%;
+  }
+}
